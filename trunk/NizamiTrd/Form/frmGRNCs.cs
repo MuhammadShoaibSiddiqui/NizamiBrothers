@@ -215,7 +215,7 @@ namespace NizamiTrd
             fFirstKeyField = "Transport_ID";
 
             lSQL = "select * from " + fFirstTableName;
-            lSQL += " order by ordering";
+            lSQL += " order by Transport_Title";
 
             clsFillCombo.FillCombo(cboTransport, clsGVar.ConString1, fFirstTableName + "," + fFirstKeyField + "," + "False", lSQL);
             fcboDefaultValue = Convert.ToInt16(cboTransport.SelectedValue);
@@ -2344,7 +2344,15 @@ namespace NizamiTrd
         }
         //
         private void ClearThisForm()
-        { 
+        {
+            // Transport Tab Clear  -- Begin
+            txtBiltyNo.Text = string.Empty;
+            txtBiltyDate.Text = string.Empty;
+            txtVehicleNo.Text = string.Empty;
+            txtDriverName.Text = string.Empty;
+            cboTransport.SelectedValue = 7;
+            // Transport Tab Clear  -- end
+
             lblDocID.Text = string.Empty;
             txtManualDoc.Text = string.Empty;
             txtManualDoc.Enabled = true;

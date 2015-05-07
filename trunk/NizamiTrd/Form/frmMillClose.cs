@@ -254,7 +254,7 @@ namespace NizamiTrd
             fFirstKeyField = "Transport_ID";
 
             lSQL = "select * from " + fFirstTableName;
-            lSQL += " order by ordering";
+            lSQL += " order by Transport_Title";
 
             //clsFillCombo.FillCombo(cboTransport, clsGVar.ConString1, fFirstTableName + "," + fFirstKeyField + "," + "False", lSQL);
             //fcboDefaultValue = Convert.ToInt16(cboTransport.SelectedValue);

@@ -2092,7 +2092,15 @@ namespace NizamiTrd
         }
         //
         private void ClearThisForm()
-        { 
+        {
+            // Transport Tab Clear  -- Begin
+            txtBiltyNo.Text = string.Empty;
+            txtBiltyDate.Text = string.Empty;
+            txtVehicleNo.Text = string.Empty;
+            txtDriverName.Text = string.Empty;
+            cboTransport.SelectedValue = 7;
+            // Transport Tab Clear  -- end
+
             lblDocID.Text = string.Empty;
             txtManualDoc.Text = string.Empty;
             txtManualDoc.Enabled = true;
