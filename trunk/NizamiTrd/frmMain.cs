@@ -1174,6 +1174,13 @@ namespace NizamiTrd
              frm.Show();
          }
 
+         private void detailedPrintingToolStripMenuItem_Click(object sender, EventArgs e)
+         {
+             frmDetailsPrinting frm = new frmDetailsPrinting();
+             frm.MdiParent = this;
+             frm.Show();
+         }
+
  
     }
 }
