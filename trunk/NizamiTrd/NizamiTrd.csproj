@@ -175,6 +175,12 @@
     <Compile Include="Form\frmCRVoc.Designer.cs">
       <DependentUpon>frmCRVoc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form\frmDetailsPrinting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmDetailsPrinting.Designer.cs">
+      <DependentUpon>frmDetailsPrinting.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\frmExpenseComp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -282,6 +288,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsAgingDue.xsd</DependentUpon>
     </Compile>
+    <Compile Include="PrintDataSets\dsCities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCities.xsd</DependentUpon>
+    </Compile>
     <Compile Include="PrintDataSets\dsCOA_Addr.cs">
       <DependentUpon>dsCOA_Addr.xsd</DependentUpon>
       <SubType>Component</SubType>
@@ -291,11 +302,79 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsCOA_Addr.xsd</DependentUpon>
     </Compile>
+    <Compile Include="PrintDataSets\dsCountries.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCountries.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsGodowns.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGodowns.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsItemCodes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsItemCodes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsItemGroups.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsItemGroups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsItems.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsItems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsProvinces.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProvinces.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsRegions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRegions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsTerritories.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTerritories.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsTransport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTransport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsUOM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUOM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintReport\CrCities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrCities.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="PrintReport\CrContract.cs">
       <DependentUpon>CrContract.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintReport\CrGodowns.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrGodowns.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintReport\CrItems.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrItems.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="PrintReport\CrItemStockRate.cs">
       <DependentUpon>CrItemStockRate.rpt</DependentUpon>
@@ -314,6 +393,42 @@
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintReport\CrListOfCountries.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrListOfCountries.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintReport\CrListOfItemCodes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrListOfItemCodes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintReport\CrListOfItemGroups.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrListOfItemGroups.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintReport\CrListOfProvinces.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrListOfProvinces.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintReport\CrListOfRegions.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrListOfRegions.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintReport\CrListOfTerritories1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrListOfTerritories.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="PrintReport\CrMonthlyCompSum.cs">
       <DependentUpon>CrMonthlyCompSum.rpt</DependentUpon>
@@ -425,6 +540,12 @@
       <DependentUpon>CrStockSumSub.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="PrintReport\CrTransport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrTransport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="PrintReport\CrTrial.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -447,6 +568,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CrPeriodGrpWOOP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintReport\CrUOM.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrUOM.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="PrintViewer\frmPrintViewer.cs">
@@ -1027,6 +1154,9 @@
     <EmbeddedResource Include="Form\frmCRVoc.resx">
       <DependentUpon>frmCRVoc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmDetailsPrinting.resx">
+      <DependentUpon>frmDetailsPrinting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\frmExpenseComp.resx">
       <DependentUpon>frmExpenseComp.cs</DependentUpon>
     </EmbeddedResource>
@@ -1086,9 +1216,21 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrAgingDueRep2.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrCities.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrCities.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrintReport\CrContract.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrContract.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrGodowns.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrGodowns.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrItems.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrItems.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintReport\CrItemStockRate.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -1101,6 +1243,30 @@
     <EmbeddedResource Include="PrintReport\CrLedger.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrListOfCountries.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrListOfCountries.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrListOfItemCodes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrListOfItemCodes.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrListOfItemGroups.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrListOfItemGroups.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrListOfProvinces.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrListOfProvinces.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrListOfRegions.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrListOfRegions.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrListOfTerritories.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrListOfTerritories1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintReport\CrMfgClose.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -1130,6 +1296,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrStockSumSub.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrTransport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrTransport1.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrintReport\CrTrial.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrTrial.cs</LastGenOutput>
@@ -1145,6 +1315,10 @@
     <EmbeddedResource Include="PrintReport\CrPeriodGrpWOOP.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrPeriodGrpWOOP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrUOM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrUOM.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintViewer\frmPrintViewer.resx">
       <DependentUpon>frmPrintViewer.cs</DependentUpon>
@@ -1490,6 +1664,17 @@
     <None Include="PrintDataSets\dsAgingDueRep.xss">
       <DependentUpon>dsAgingDueRep.xsd</DependentUpon>
     </None>
+    <None Include="PrintDataSets\dsCities.xsc">
+      <DependentUpon>dsCities.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsCities.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCities.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsCities.xss">
+      <DependentUpon>dsCities.xsd</DependentUpon>
+    </None>
     <None Include="PrintDataSets\dsCOA_Addr.xsc">
       <DependentUpon>dsCOA_Addr.xsd</DependentUpon>
     </None>
@@ -1500,6 +1685,61 @@
     </None>
     <None Include="PrintDataSets\dsCOA_Addr.xss">
       <DependentUpon>dsCOA_Addr.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsCountries.xsc">
+      <DependentUpon>dsCountries.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsCountries.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCountries.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsCountries.xss">
+      <DependentUpon>dsCountries.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsGodowns.xsc">
+      <DependentUpon>dsGodowns.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsGodowns.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGodowns.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsGodowns.xss">
+      <DependentUpon>dsGodowns.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsItemCodes.xsc">
+      <DependentUpon>dsItemCodes.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsItemCodes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsItemCodes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsItemCodes.xss">
+      <DependentUpon>dsItemCodes.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsItemGroups.xsc">
+      <DependentUpon>dsItemGroups.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsItemGroups.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsItemGroups.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsItemGroups.xss">
+      <DependentUpon>dsItemGroups.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsItems.xsc">
+      <DependentUpon>dsItems.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsItems.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsItems.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsItems.xss">
+      <DependentUpon>dsItems.xsd</DependentUpon>
     </None>
     <None Include="PrintDataSets\dsLedgerNew.xsc">
       <DependentUpon>dsLedgerNew.xsd</DependentUpon>
@@ -1545,6 +1785,28 @@
     <None Include="PrintDataSets\dsPayReceipt.xss">
       <DependentUpon>dsPayReceipt.xsd</DependentUpon>
     </None>
+    <None Include="PrintDataSets\dsProvinces.xsc">
+      <DependentUpon>dsProvinces.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsProvinces.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProvinces.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsProvinces.xss">
+      <DependentUpon>dsProvinces.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsRegions.xsc">
+      <DependentUpon>dsRegions.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsRegions.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRegions.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsRegions.xss">
+      <DependentUpon>dsRegions.xsd</DependentUpon>
+    </None>
     <None Include="PrintDataSets\dsStockSum.xsc">
       <DependentUpon>dsStockSum.xsd</DependentUpon>
     </None>
@@ -1555,6 +1817,39 @@
     </None>
     <None Include="PrintDataSets\dsStockSum.xss">
       <DependentUpon>dsStockSum.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsTerritories.xsc">
+      <DependentUpon>dsTerritories.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsTerritories.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTerritories.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsTerritories.xss">
+      <DependentUpon>dsTerritories.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsTransport.xsc">
+      <DependentUpon>dsTransport.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsTransport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTransport.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsTransport.xss">
+      <DependentUpon>dsTransport.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsUOM.xsc">
+      <DependentUpon>dsUOM.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsUOM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUOM.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsUOM.xss">
+      <DependentUpon>dsUOM.xsd</DependentUpon>
     </None>
     <None Include="PrintDataSets\NizamiBrothersDataSet.xsc">
       <DependentUpon>NizamiBrothersDataSet.xsd</DependentUpon>

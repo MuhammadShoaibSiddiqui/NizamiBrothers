@@ -39,291 +39,291 @@ namespace NizamiTrd
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            //if (optItemRateList.Checked == true)
-            //{
-            //    string fRptTitle = "Item Rate List";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+            if (optItemRateList.Checked == true)
+            {
+                string fRptTitle = "Item Rate List";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    dsItems ds = new dsItems();
-            //    CrItems rpt1 = new CrItems();
+                dsItems ds = new dsItems();
+                CrItems rpt1 = new CrItems();
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfItems",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfItems",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    rptLedger.Show();
-            //}
+                rptLedger.Show();
+            }
 
-            //else if (optListOfGodowns.Checked == true)
-            //{
-            //    string fRptTitle = "List of Godowns";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+            else if (optListOfGodowns.Checked == true)
+            {
+                string fRptTitle = "List of Godowns";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    dsGodowns ds = new dsGodowns();
-            //    CrGodowns rpt1 = new CrGodowns();
+                dsGodowns ds = new dsGodowns();
+                CrGodowns rpt1 = new CrGodowns();
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfGodowns",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfGodowns",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    rptLedger.Show();
-            //}
+                rptLedger.Show();
+            }
 
-            //else if (optListOfUOM.Checked == true)
-            //{
-            //    string fRptTitle = "List of UOM";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+            else if (optListOfUOM.Checked == true)
+            {
+                string fRptTitle = "List of UOM";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    dsUOM ds = new dsUOM();
-            //    CrUOM rpt1 = new CrUOM();
+                dsUOM ds = new dsUOM();
+                CrUOM rpt1 = new CrUOM();
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfUOM",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfUOM",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    rptLedger.Show();
-            //}
-           
-            //else if (optListOfTransports.Checked == true)
-            //{
-            //    string fRptTitle = "List of Transports";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+                rptLedger.Show();
+            }
 
-            //    dsTransport ds = new dsTransport();
-            //    CrTransport rpt1 = new CrTransport();
+            else if (optListOfTransports.Checked == true)
+            {
+                string fRptTitle = "List of Transports";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfTransport",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+                dsTransport ds = new dsTransport();
+                CrTransport rpt1 = new CrTransport();
 
-            //    rptLedger.Show();
-            //}
-            
-            //else if (optListOfCities.Checked == true)
-            //{
-            //    string fRptTitle = "List of Cities";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfTransport",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    dsCities ds = new dsCities();
-            //    CrCities rpt1 = new CrCities();
+                rptLedger.Show();
+            }
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfCities",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+            else if (optListOfCities.Checked == true)
+            {
+                string fRptTitle = "List of Cities";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    rptLedger.Show();
-            //}
+                dsCities ds = new dsCities();
+                CrCities rpt1 = new CrCities();
 
-            //else if (optListOfItemCodes.Checked == true)
-            //{
-            //    string fRptTitle = "List of Item Codes";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfCities",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    dsItemCodes ds = new dsItemCodes();
-            //    CrListOfItemCodes rpt1 = new CrListOfItemCodes();
+                rptLedger.Show();
+            }
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfItemsCodes",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+            else if (optListOfItemCodes.Checked == true)
+            {
+                string fRptTitle = "List of Item Codes";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    rptLedger.Show();
-            //}
+                dsItemCodes ds = new dsItemCodes();
+                CrListOfItemCodes rpt1 = new CrListOfItemCodes();
 
-            //else if (optListOfTerritories.Checked == true)
-            //{
-            //    string fRptTitle = "List of Territories";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfItemsCodes",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    dsTerritories ds = new dsTerritories();
-            //    CrListOfTerritories rpt1 = new CrListOfTerritories();
+                rptLedger.Show();
+            }
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfTerritories",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+            else if (optListOfTerritories.Checked == true)
+            {
+                string fRptTitle = "List of Territories";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    rptLedger.Show();
-            //}
+                dsTerritories ds = new dsTerritories();
+                CrListOfTerritories rpt1 = new CrListOfTerritories();
 
-            //else if (optListOfRegions.Checked == true)
-            //{
-            //    string fRptTitle = "List of Regions";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfTerritories",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    dsRegions ds = new dsRegions();
-            //    CrListOfRegions rpt1 = new CrListOfRegions();
+                rptLedger.Show();
+            }
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfRegions",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+            else if (optListOfRegions.Checked == true)
+            {
+                string fRptTitle = "List of Regions";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    rptLedger.Show();
-            //}
+                dsRegions ds = new dsRegions();
+                CrListOfRegions rpt1 = new CrListOfRegions();
 
-            //else if (optListOfProvinces.Checked == true)
-            //{
-            //    string fRptTitle = "List of Provinces";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfRegions",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    dsProvinces ds = new dsProvinces();
-            //    CrListOfProvinces rpt1 = new CrListOfProvinces();
+                rptLedger.Show();
+            }
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfProvinces",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+            else if (optListOfProvinces.Checked == true)
+            {
+                string fRptTitle = "List of Provinces";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    rptLedger.Show();
-            //}
+                dsProvinces ds = new dsProvinces();
+                CrListOfProvinces rpt1 = new CrListOfProvinces();
 
-            //else if (optListOfCountries.Checked == true)
-            //{
-            //    string fRptTitle = "List of Countries";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfProvinces",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    dsCountries ds = new dsCountries();
-            //    CrListOfCountries rpt1 = new CrListOfCountries();
+                rptLedger.Show();
+            }
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfCountries",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+            else if (optListOfCountries.Checked == true)
+            {
+                string fRptTitle = "List of Countries";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    rptLedger.Show();
-            //}
+                dsCountries ds = new dsCountries();
+                CrListOfCountries rpt1 = new CrListOfCountries();
 
-            //else if (optListOfItemGroups.Checked == true)
-            //{
-            //    string fRptTitle = "List of Item Groups";
-            //    string plstField = "@ID";
-            //    string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
-            //    string plstValue = "1";
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfCountries",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
 
-            //    dsItemGroups ds = new dsItemGroups();
-            //    CrListOfItemGroups rpt1 = new CrListOfItemGroups();
+                rptLedger.Show();
+            }
 
-            //    frmPrintViewer rptLedger = new frmPrintViewer(
-            //       fRptTitle,
-            //       "",
-            //       "",
-            //       "sp_ListOfItemGroups",
-            //       plstField,
-            //       plstType,
-            //       plstValue,
-            //       ds,
-            //       rpt1,
-            //       "SP"
-            //       );
+            else if (optListOfItemGroups.Checked == true)
+            {
+                string fRptTitle = "List of Item Groups";
+                string plstField = "@ID";
+                string plstType = "8"; // {   "8, 8, 8, 8, 8, 8" };
+                string plstValue = "1";
 
-            //    rptLedger.Show();
-            //}
+                dsItemGroups ds = new dsItemGroups();
+                CrListOfItemGroups rpt1 = new CrListOfItemGroups();
+
+                frmPrintViewer rptLedger = new frmPrintViewer(
+                   fRptTitle,
+                   "",
+                   "",
+                   "sp_ListOfItemGroups",
+                   plstField,
+                   plstType,
+                   plstValue,
+                   ds,
+                   rpt1,
+                   "SP"
+                   );
+
+                rptLedger.Show();
+            }
         }
     }
 }
