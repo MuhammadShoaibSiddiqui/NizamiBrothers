@@ -2572,7 +2572,7 @@ namespace NizamiTrd
                fRptTitle,
                msk_VocDate.Text,
                msk_VocDate.Text,
-               "sp_Contract",
+               "sp_ContLabChg",
                plstField,
                plstType,
                plstValue,
